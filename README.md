@@ -75,19 +75,12 @@ Supported file formats:
 
 ### Schedule File Format
 
-Schedule files are named by day: `mondayschedule.txt`, `tuesdayschedule.txt`, etc.
+Schedule files are named by day: `monschedule.txt`, `tueschedule.txt`, etc.
 
 Each line follows this format:
 ```
 HH:MM=ACTION=PATH=ACTION=PATH...
 ```
-
-Example:
-```
-06:00=TIME_CHECK=time_checks=JINGLE=jingles=ADS=ads=MUSIC=music
-17:30=JINGLE=jingles=ADS=ads=JINGLE_2=jingles=MUSIC=music
-```
-
 ### Content Types (Actions)
 
 1. **TIME_CHECK**: Time announcements
