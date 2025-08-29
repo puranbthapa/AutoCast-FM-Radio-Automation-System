@@ -35,7 +35,6 @@ AutoCast is a complete automation solution for FM radio stations, providing sche
   
 2. **Install Winamp**:
    - Download and install Winamp from [winamp.com](https://www.winamp.com)
-   - Default path should be `C:\Program Files (x86)\Winamp\winamp.exe`
 
 3. **Organize Content Directories**:
    - Create folders for your content types (music, jingles, ads, time checks)
@@ -49,8 +48,7 @@ AutoCast is a complete automation solution for FM radio stations, providing sche
 
 1. **Start the system**:
    ```
-   ```
-   start_automation.bat
+   start_automation
    ```
 
 2. **Monitor Operation**:
@@ -61,10 +59,10 @@ AutoCast is a complete automation solution for FM radio stations, providing sche
 
 AutoCast looks for content in the following directories:
 
-- **Music**: `D:\MyFMStation\Automation\MUSIC\`
-- **Jingles**: `D:\MyFMStation\Automation\JINGLES\`
-- **Advertisements**: `D:\MyFMStation\Automation\ADS\`
-- **Time Checks**: `D:\MyFMStation\Automation\TIME CHECK\`
+- **Music**: 
+- **Jingles**: 
+- **Advertisements**: 
+- **Time Checks**: 
 
 Supported file formats:
 - Audio: `.mp3`, `.wav`, `.ogg`, `.mpeg`
@@ -74,9 +72,7 @@ Supported file formats:
 ## Schedule Management
 
 ### Schedule File Format
-
 Schedule files are named by day: `monschedule.txt`, `tueschedule.txt`, etc.
-
 Each line follows this format:
 ```
 HH:MM=ACTION=PATH=ACTION=PATH...
@@ -86,11 +82,9 @@ HH:MM=ACTION=PATH=ACTION=PATH...
 1. **TIME_CHECK**: Time announcements
 2. **JINGLE**: Station jingles
 3. **ADS**: Advertisements
-4. **JINGLE_2**: Secondary jingles
-5. **MUSIC**: Music tracks
-6. **BHAJANS**: Religious content
-7. **OLD LOK GEET**: Traditional songs
-8. **OLD SAD NEPALI SONGS**: Evening content
+4. **MUSIC**: Music tracks
+5. **BHAJANS**: Religious content
+6. **OLD LOK GEET**: Traditional songs
 
 ### Using the Schedule Editor
 
@@ -136,19 +130,8 @@ templates/schedule_patterns.json
 ### Common Issues
 
 1. **No Sound**:
-   - Check Winamp is installed correctly
-   - Verify audio device settings
-   - Check if files exist in the specified paths
-
 2. **Missed Schedules**:
-   - Check schedule file format
-   - Verify system time is correct
-   - Look for errors in the error log
-
 3. **Playback Problems**:
-   - Check file formats are supported
-   - Verify file paths are correct
-   - Look for specific errors in logs/error_log.txt
 
 ### Log Analysis
 
@@ -160,9 +143,6 @@ When troubleshooting:
 ## License Information
 
 AutoCast uses a hardware-locked licensing system:
-- Current license expiry: See license.json
-- For renewals contact: Mr. Puran Thapa (details below)
-- System will cease operation after license expiration
 - License is verified at startup through multiple security layers
 
 ## License and Vendor Protection
@@ -181,12 +161,12 @@ If the system detects any unauthorized changes to vendor information or licensin
 
 ## File Structure
 
-- `start_automation.bat`: Easy startup script
+- `start_automation`: Easy startup script
 - `*schedule.txt`: Daily schedule files
 - `license.json`: License information (do not modify manually)
 - `logs/`: System and error logs
 - `templates/`: Schedule templates and patterns
-- `vendor_setup`: Vendor information management utility (admin use only)
+- `vendor`: Vendor information management utility (admin use only)
 - `setup_vendor`: Batch file for vendor setup (admin use only)
 
 ## Support and Updates
@@ -197,14 +177,6 @@ For support, bug reports, or feature requests:
 3. Keep your system and dependencies updated
 
 ## Vendor Information
-
-**Developer and Support:**
-- **Name:** Mr. Puran Thapa
-- **Company:** Eastlink Cloud Pvt. Ltd.
-- **Support Contact:** +977-9801901140
-- **Email:** support@eastlink.net.np
-- **Address:** Kathmandu, Nepal
-
 **License Information:**
 - This software is licensed only to the original purchaser
 - License is hardware-locked and non-transferable
@@ -214,9 +186,7 @@ For support, bug reports, or feature requests:
 ## Administration
 
 ### Vendor Management Utility
-
 For system administrators only, AutoCast includes a vendor information management utility:
-
 ```
 setup_vendor
 ```
@@ -228,18 +198,6 @@ This utility allows authorized administrators to:
 
 **Note:** This utility requires administrative access and should only be used by authorized personnel.
 
-### License Renewal
-
-When your license is approaching expiration:
-
-1. Contact Mr. Puran Bahadur Thapa at Eastlink Cloud Pvt. Ltd.
-2. Provide your system's hardware information (available in license.json)
-3. After payment, you'll receive an updated license file
-4. Run the vendor setup utility to verify the new license
-
-> **IMPORTANT:** Do not attempt to modify vendor information or license settings manually. Doing so will disable the software. For any license or support needs, contact Mr. Puran Bahadur Thapa at Eastlink Cloud Pvt. Ltd. using the contact information provided above.
-
 ---
 
 © 2025 Eastlink Cloud Pvt. Ltd. All rights reserved. 
-Developed by Mr. Puran Bahadur Thapa.
