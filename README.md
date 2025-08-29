@@ -21,9 +21,9 @@ AutoCast is a complete automation solution for FM radio stations, providing sche
 
 - **Operating System**: Windows 10 or newer
 - **Dependencies**:
-  - Python 3.8 or newer
+  - Python 
   - Winamp media player
-  - Mutagen library (`pip install mutagen`)
+  - library
 - **Hardware**: 
   - Minimum 4GB RAM
   - 1GB free disk space for application
