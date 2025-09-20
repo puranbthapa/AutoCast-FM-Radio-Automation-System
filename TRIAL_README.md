@@ -1,15 +1,5 @@
 # 🎯 AutoCast FM - FREE Trial License
 
-## Quick Start - Generate Trial License
-
-### 🚀 Fastest Way (Windows)
-Double-click: `generate_trial.bat`
-
-### 💻 Command Line
-```bash
-python trial_license.py
-```
-
 ## Features During Trial
 - ✅ **Complete radio automation system**
 - ✅ **Schedule management with music/ads/jingles**  
@@ -20,7 +10,7 @@ python trial_license.py
 
 ## Check Trial Status
 ```bash
-python trial_license.py --status
+check_trial_status.bat
 ```
 
 ## After Trial Expires
@@ -39,4 +29,5 @@ python trial_license.py --status
 - Multi-year (730 days)
 
 ---
+
 **No payment required for trial period**
