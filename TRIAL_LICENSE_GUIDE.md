@@ -12,29 +12,6 @@ AutoCast FM now offers a **15-day FREE trial license** for users who want to tes
 - **Easy generation** - Multiple ways to create
 - **No restrictions** - Same as full license
 
-### 🚀 How to Generate Trial License
-
-#### Method 1: Dedicated Trial Generator (Recommended)
-```bash
-python trial_license.py
-```
-
-#### Method 2: Easy Batch File (Windows)
-```bash
-generate_trial.bat
-```
-
-#### Method 3: Original Generator
-```bash
-python generate_license.py --trial
-```
-
-#### Method 4: Interactive Mode
-```bash
-python generate_license.py
-# Select option 1: Trial (15 days)
-```
-
 ### 📋 Trial License Information
 
 When you generate a trial license, the system will:
@@ -58,19 +35,9 @@ When your trial expires:
 
 ### 🔍 Check Trial Status
 
-#### Method 1: Dedicated Trial Status (Recommended)
-```bash
-python trial_license.py --status
-```
-
-#### Method 2: Batch File (Windows)
+#### Method : Batch File (Windows)
 ```bash
 check_trial_status.bat
-```
-
-#### Method 3: Original Generator
-```bash
-python generate_license.py --expiry
 ```
 
 Example output:
@@ -82,11 +49,6 @@ Example output:
    Status: ✅ Valid for 15 more days
    Verification: ✅ Trial valid for 15 days
 ```
-
-### 🛠️ Trial License 
-| File | Description |
-|------|-------------|
-| `check_trial_status.bat` | Check trial status |
 
 ### 🔐 License Security
 
