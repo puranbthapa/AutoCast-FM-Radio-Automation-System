@@ -4,8 +4,6 @@
 
 AutoCast is a complete automation solution for FM radio stations, providing scheduled playback of music, jingles, advertisements, and time checks. The system uses Winamp as the underlying player and supports various audio formats.
 
-![AutoCast FM Automation System](https://eastlink.com.np/FM+Radio+Automation+System)
-
 ## Features
 
 - **Scheduled Programming**: Detailed schedule management by day of week
