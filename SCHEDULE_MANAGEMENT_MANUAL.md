@@ -575,9 +575,9 @@ Recommended pattern:
 ### Technical Support
 
 **Eastlink Cloud Pvt. Ltd.**
-- **Email**: support@eastlinkcloud.com
-- **Phone**: +977-XX-XXXXXX
-- **Website**: www.eastlinkcloud.com
+- **Email**: info@eastlink.com.np
+- **Phone**: +977-01-4101181
+- **Website**: www.eastlink.com.np
 - **Support Hours**: 24/7 Professional Support
 
 
@@ -659,5 +659,6 @@ HH:MM=ACTION1=PATH1=ACTION2=PATH2=ACTION3=PATH3
 **Classification**: Professional Broadcasting System Manual  
 
 ---
+
 
 © 2025 Eastlink Cloud Pvt. Ltd. All rights reserved. This manual is proprietary and confidential. Unauthorized reproduction or distribution is prohibited.
