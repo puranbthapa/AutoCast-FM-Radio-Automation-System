@@ -86,7 +86,7 @@ HH:MM=ACTION=PATH=ACTION=PATH...
 
 ### Using the Schedule Editor
 
-For detailed instructions on using the Schedule Editor, see [SCHEDULE_EDITOR_MANUAL.md](SCHEDULE_EDITOR_MANUAL.md).
+For detailed instructions on using the Schedule Editor, see [SCHEDULE_MANAGEMENT_MANUAL.md](SCHEDULE_MANAGEMENT_MANUAL.md).
 
 ## Logging System
 
